@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.happybirthday.MainActivity">
+
+    <TextView
+        android:id="@+id/happytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday, MOM"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fromtext"
+        android:text="From, Harshit!"/>
+
+    <ImageView
+        android:id="@+id/partyimg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/androidparty"/>
+
+</RelativeLayout>
